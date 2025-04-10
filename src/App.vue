@@ -11,8 +11,10 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </header>
 
-  <main>
-    <RouterView />
+  <main class="pt-4 pb-4">
+    <div class="container">
+      <RouterView />
+    </div>
   </main>
 </template>
 
