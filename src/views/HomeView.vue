@@ -29,6 +29,7 @@ const visiblePosts: Post[] = computed(() => posts.value.slice(0, page.value * pe
         <div class="card-body">
           <h5 class="card-title">{{ post.title }}</h5>
           <p class="card-text">{{ post.body }}</p>
+          <a :href="`/post/${post.id}`" class="btn btn-primary">See details</a>
         </div>
       </div>
     </div>
