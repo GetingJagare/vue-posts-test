@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import axios from 'axios'
 import { defineProps, ref, onMounted } from 'vue'
-import type { IPost, IPostComment } from '@/types/post'
+import type { IPostComment } from '@/types/post'
 const props = defineProps<{ postId: number }>()
 const comments = ref<IPostComment[]>([])
 

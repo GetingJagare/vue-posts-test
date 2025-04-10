@@ -2,7 +2,7 @@
 import axios from 'axios'
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import type { IPost, IPostComment } from '@/types/post'
+import type { IPost } from '@/types/post'
 import Post from '@/components/Post.vue'
 
 const post = ref<IPost | null>(null)
